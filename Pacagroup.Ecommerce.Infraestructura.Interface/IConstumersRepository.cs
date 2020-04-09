@@ -20,11 +20,11 @@ namespace Pacagroup.Ecommerce.Infraestructura.Interface
 
         #region Async Methods
 
-        Task<bool> InsertAync(Customers customer);
-        Task<bool> UpdateAync(Customers customer);
-        Task<bool> DeleteAync(string customerId);
-        Task<Customers> GetAync(string customerId);
-        Task<IEnumerable<Customers>> GetAllAync();
+        Task<bool> InsertAsync(Customers customer);
+        Task<bool> UpdateAsync(Customers customer);
+        Task<bool> DeleteAsync(string customerId);
+        Task<Customers> GetAsync(string customerId);
+        Task<IEnumerable<Customers>> GetAllAsync();
 
         #endregion Async Methods
     }
